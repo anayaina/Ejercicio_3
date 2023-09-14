@@ -1,833 +1,795 @@
 <!doctype html>
 <html lang="en">
 
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Play&Win - Home Page</title>
-    <!-- CSS -->
-    <link rel="stylesheet" href="..\assets\css\index\index.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
-    <!-- JS -->
-    <script src="..\assets\js\main.js"></script>
-    <!-- Favicon -->
-    <link rel="shortcut icon" href="..\assets\img\Logo\favicon-16x16.png"
-      type="image/x-icon">
-  </head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Play&Win - Home Page</title>
+  <!-- CSS -->
+  <link rel="stylesheet" href="..\assets\css\index\index.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+  <!-- JS -->
+  <script src="..\assets\js\main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+  <!-- icons -->
+  <link rel="shortcut icon" href="..\assets\img\Logo\favicon-16x16.png" type="image/x-icon">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-  <body>
-    <!-- Barra Superior Social Media -->
-    <header>
-      <nav>
-        <div class="social">
-          <ul class="social-links">
-            <li><a href="#"><img src="..\assets\img\Social Media\facebook.png"
-                  alt="Facebook"></a></li>
-            <li><a href="#"><img src="..\assets\img\Social Media\twitter.png"
-                  alt="Twitter"></a></li>
-            <li><a href="#"><img src="..\assets\img\Social Media\instagram.png"
-                  alt="Instagram"></a></li>
-            <li><a href="#"><img src="..\assets\img\Social Media\youtube.png"
-                  alt="Youtube"></a></li>
-          </ul>
-        </div>
-      </nav>
-    </header>
+</head>
 
-    <!-- Barra de Navegación -->
+<body>
+  <!-- Barra Superior Social Media -->
+  <header>
     <nav>
-      <div class="wrapper">
-        <div class="logo">
-          <a class="navbar-brand" href="index.html">
-            <img
-              src="..\assets\img\Logo\android-chrome-192x192-removebg-preview.png"
-              alt="Logo" width="40" height="40">
-          </a>
-          <a href="index.html">Play & Win</a>
-        </div>
-        <input type="radio" name="slider" id="menu-btn">
-        <input type="radio" name="slider" id="close-btn">
-        <ul class="nav-links">
-          <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
-          <li>
-            <a class="desktop-item">Todos los juegos
-              <img src="..\assets\img\random\arrow-down.png" alt="Logo"
-                width="15" height="15">
-            </a>
-            <ul class="drop-menu">
-              <li><a href="#seccion-juegos-destacados">FIFA 23</a></li>
-              <li><a href="#seccion-juegos-destacados">F1 22</a></li>
-              <li><a href="#seccion-juegos-destacados">Madden NFL 23</a></li>
-              <li><a href="#seccion-juegos-destacados">Apex Legends</a></li>
-              <li><a href="#seccion-juegos-destacados">Battlefield 2042</a></li>
-              <li><a href="#seccion-juegos-destacados">Los Sims 4</a></li>
-            </ul>
-          </li>
-          <li>
-            <a class="desktop-item">Juegos
-              <img src="..\assets\img\random\arrow-down.png" alt="Logo"
-                width="15" height="15">
-            </a>
-            <input type="checkbox" id="showMega">
-            <div class="mega-box">
-              <div class="content">
-                <div class="row">
-                  <img
-                    src="https://media.giphy.com/media/fynAG6TbXlff9iUL1c/giphy.gif"
-                    alt="Games">
-                </div>
-                <div class="row">
-                  <header>Explorar Juegos</header>
-                  <ul class="mega-links">
-                    <li><a href="#seccion-juegos-destacados">Últimos juegos</a></li>
-                    <li><a href="#">Próximamente</a></li>
-                    <li><a href="#">Gratuitos</a></li>
-                    <li><a href="#">Ofertas</a></li>
-                  </ul>
-                </div>
-                <div class="row">
-                  <header>Plataformas</header>
-                  <ul class="mega-links">
-                    <li><a href="#">PC</a></li>
-                    <li><a href="#">PlayStation 5</a></li>
-                    <li><a href="#">Xbox Series X</a></li>
-                    <li><a href="#">Nintendo Switch</a></li>
-                    <li><a href="#">Móviles</a></li>
-                  </ul>
-                </div>
-                <div class="row">
-                  <header>Top</header>
-                  <ul class="mega-links">
-                    <li><a href="#todos">Todos los juegos</a></li>
-                    <li><a href="#populares">Populares</a></li>
-                    <li><a href="#proximos">Próximos</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </li>
-          <li><a href="#seccion-noticias">Noticias</a></li>
-          <li><a href="#seccion-avisos">Avisos</a></li>
-          <li><a href="#seccion-reseña">Reseñas</a></li>
+      <div class="social">
+        <ul class="social-links">
+          <li><a href="#"><img src="..\assets\img\Social Media\facebook.png" alt="Facebook"></a></li>
+          <li><a href="#"><img src="..\assets\img\Social Media\twitter.png" alt="Twitter"></a></li>
+          <li><a href="#"><img src="..\assets\img\Social Media\instagram.png" alt="Instagram"></a></li>
+          <li><a href="#"><img src="..\assets\img\Social Media\youtube.png" alt="Youtube"></a></li>
         </ul>
-        <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
       </div>
     </nav>
+  </header>
 
-    <!-- Banner llamativo -->
-    <div class="banner-colores border-0">
-      <div class="banner-container">
-        <div class="banner">
-          <div class="content-banner">
-            <div class="contenedor-sims-banner">
-              <div class="body-banner-texto">
-                <h5 class="title-banner-texto">Los Sims 4 -
-                  ¡Crea Tu Mundo!</h5>
-                <h6 class="subtitle-banner-texto">¡Descubre un mundo de
-                  posibilidades!</h6>
-                <p class="text-banner-texto">Crea personajes únicos, construye
-                  hogares impresionantes y vive historias emocionantes en el juego de simulación de vida más popular.</p>
-                <button href="#" class="link-banner-texto" role="button">¡Comienza
-                  tu aventura ahora!</button>
-              </div>
-            </div>
-          </div>
-          <div class="sims-banner-img">
-            <img src="..\assets\img\sims\sims-banner-2.png" alt="Banner">
-          </div>
-        </div>
+  <!-- Barra de Navegación -->
+  <nav>
+    <div class="wrapper">
+      <div class="logo">
+        <a class="navbar-brand" href="index.html">
+          <img src="..\assets\img\Logo\android-chrome-192x192-removebg-preview.png" alt="Logo" width="40" height="40">
+        </a>
+        <a href="index.html">Play & Win</a>
       </div>
-
-    <!-- Sección Juegos Destacados -->
-    <section id="seccion-juegos-destacados">
-      <div class="card-juegos-destacados">
-        <h1 class="h1-juegos-destacados">Juegos Destacados</h1>
-        <div class="card-body-juegos-destacados">
-          <div class="row row-cols-1 row-cols-md-3 g-4 card-imagenes-destacados">
-            <div class="col">
-              <div class="wrapper">
-                <div class="card-wrapper">
-                  <img src="../assets/img/destacados/fc-24.jpeg"
-                    class="img-juego" alt="FC 24">
-                  <div class="overlay">
-                    <img src="../assets/img/destacados/fc-24_logo.png" alt="logo">
-                  </div>
-                  <div class="info">
-                    <a href="#" class="link-info"> Visitar Página Oficial</a>
-                  </div>
-                </div>
+      <input type="radio" name="slider" id="menu-btn">
+      <input type="radio" name="slider" id="close-btn">
+      <ul class="nav-links">
+        <label for="close-btn" class="btn close-btn"><i class="fas fa-times"></i></label>
+        <li>
+          <a class="desktop-item">Todos los juegos
+            <img src="..\assets\img\random\arrow-down.png" alt="Logo" width="15" height="15">
+          </a>
+          <ul class="drop-menu">
+            <li><a href="#seccion-juegos-destacados">FIFA 23</a></li>
+            <li><a href="#seccion-juegos-destacados">F1 22</a></li>
+            <li><a href="#seccion-juegos-destacados">Madden NFL 23</a></li>
+            <li><a href="#seccion-juegos-destacados">Apex Legends</a></li>
+            <li><a href="#seccion-juegos-destacados">Battlefield 2042</a></li>
+            <li><a href="#seccion-juegos-destacados">Los Sims 4</a></li>
+          </ul>
+        </li>
+        <li>
+          <a class="desktop-item">Juegos
+            <img src="..\assets\img\random\arrow-down.png" alt="Logo" width="15" height="15">
+          </a>
+          <input type="checkbox" id="showMega">
+          <div class="mega-box">
+            <div class="content">
+              <div class="row">
+                <img src="https://media.giphy.com/media/fynAG6TbXlff9iUL1c/giphy.gif" alt="Games">
               </div>
-            </div>
-            <div class="col">
-              <div class="wrapper">
-                <div class="card-wrapper">
-                  <img src="../assets/img/destacados/immortals.jpg"
-                  class="juego-logo" alt="Immortals">
-                  <div class="overlay">
-                    <img src="../assets/img/destacados/immortals_logo.png" alt="logo">
-                  </div>
-                  <div class="info">
-                    <a href="#" class="link-info"> Visitar Página Oficial</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="wrapper">
-                <div class="card-wrapper">
-                  <img src="../assets/img/destacados/madden-24.jpg"
-                    class="juego-logo" alt="Madden 24">
-                  <div class="overlay">
-                    <img src="../assets/img/destacados/madden-24-logo.png" alt="logo">
-                  </div>
-                  <div class="info">
-                    <a href="#" class="link-info"> Visitar Página Oficial</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="wrapper">
-                <div class="card-wrapper">
-                  <img src="../assets/img/destacados/baseball.jpg"
-                  class="juego-logo" alt="Baseball">
-                  <div class="overlay">
-                    <img src="../assets/img/destacados/baseball-logo.png" alt="logo">
-                  </div>
-                  <div class="info">
-                    <a href="#" class="link-info"> Visitar Página Oficial</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="wrapper">
-                <div class="card-wrapper">
-                  <img src="../assets/img/destacados/sims.jpg" class="juego-logo"
-                    alt="The Sims 4">
-                  <div class="info">
-                    <a href="#" class="link-info"> Visitar Página Oficial</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="wrapper">
-                <div class="card-wrapper">
-                  <img src="../assets/img/destacados/apex-legends.jpg"
-                    class="juego-logo" alt="Apex Legends">
-                  <div class="overlay">
-                    <img src="../assets/img/destacados/apex-legends-logo.png" alt="logo">
-                  </div>
-                  <div class="info">
-                    <a href="#" class="link-info"> Visitar Página Oficial</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Noticias -->
-    <section id="seccion-noticias">
-      <div class="card-noticias">
-        <h1 class="h1-noticias">Noticias</h1>
-        <div class="tabset">
-          <input type="radio" name="tabset" id="tab1" aria-controls="tab1"
-            checked>
-          <label for="tab1">Noticias P&W</label>
-          <input type="radio" name="tabset" id="tab2" aria-controls="tab2">
-          <label for="tab2">Los Sims 4</label>
-          <input type="radio" name="tabset" id="tab3" aria-controls="tab3">
-          <label for="tab3">F1</label>
-          <div class="tab-panels">
-            <section id="tab1" class="tab-panel">
-              <div class="row row-cols-1 row-cols-md-3 g-4 card-noticias">
-                <div class="col">
-                  <div class="card card-tabs h-100">
-                    <img src="../assets/img/noticias/evento.png"
-                      class="card-img-tabs">
-                    <div class="card-body-tabs">
-                      <h5 class="card-title-tabs h5-dark">Celebramos el futuro
-                        de P&W</h5>
-                      <p class="card-text-tabs">El primer evento presencial
-                        reunió a todos para animar a emprender el increíble
-                        trabajo que les espera.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card card-tabs h-100">
-                    <img src="../assets/img/noticias/rene.png"
-                      class="card-img-tabs">
-                    <div class="card-body-tabs">
-                      <h5 class="card-title-tabs h5-dark">Project Rene</h5>
-                      <p class="card-text-tabs">Descubre la evolución de Los
-                        Sims donde se involucra a los fans en el proceso de
-                        desarrollo.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card card-tabs h-100">
-                    <img src="../assets/img/noticias/Cliffhanger.png"
-                      class="card-img-tabs">
-                    <div class="card-body-tabs">
-                      <h5 class="card-title-tabs h5-dark">Conoce Cliffhanger
-                        Games</h5>
-                      <p class="card-text-tabs">Conoce el nuevo juego juego de
-                        acción y aventura para un jugador basado en Pantera
-                        Negra de Marvel.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section id="tab2" class="tab-panel">
-              <div class="row row-cols-1 row-cols-md-3 g-4 card-noticias">
-                <div class="col">
-                  <div class="card card-tabs h-100">
-                    <img src="../assets/img/noticias/sims-update.png"
-                      class="card-img-tabs">
-                    <div class="card-body-tabs">
-                      <h5 class="card-title-tabs h5-dark">Actualización
-                        03/08/2023</h5>
-                      <p class="card-text-tabs">Mejora de los comederos de los
-                        caballos.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card card-tabs h-100">
-                    <img src="../assets/img/noticias/horse-ranch.png"
-                      class="card-img-tabs">
-                    <div class="card-body-tabs">
-                      <h5 class="card-title-tabs h5-dark">Los Sims 4 - Rancho de
-                        Caballos</h5>
-                      <p class="card-text-tabs">Tú formas parte de Los Sims con
-                        Chrissie YT, Simproved, Ninnster y Doctor Ashley</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card card-tabs h-100">
-                    <img src="../assets/img/noticias/sims-update.png"
-                      class="card-img-tabs">
-                    <div class="card-body-tabs">
-                      <h5 class="card-title-tabs h5-dark">Actualización
-                        18/07/2023</h5>
-                      <p class="card-text-tabs">Para prepararte para su llegada
-                        en Los Sims 4 Pack de expansión Rancho de caballos.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section id="tab3" class="tab-panel">
-              <div class="row row-cols-1 row-cols-md-3 g-4 card-noticias">
-                <div class="col">
-                  <div class="card card-tabs h-100">
-                    <img src="../assets/img/noticias/parche.png"
-                      class="card-img-tabs">
-                    <div class="card-body-tabs">
-                      <h5 class="card-title-tabs h5-dark">Notas del Parche V1.10</h5>
-                      <p class="card-text-tabs">LLegan grandes añadidos y el
-                        asutraliano favoritos de todos. </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card card-tabs h-100">
-                    <img src="../assets/img/noticias/parche2.png"
-                      class="card-img-tabs">
-                    <div class="card-body-tabs">
-                      <h5 class="card-title-tabs h5-dark">Notas del Parche V1.09</h5>
-                      <p class="card-text-tabs">Correción de errores y mejoras
-                        en la dificultad.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card card-tabs h-100">
-                    <img src="../assets/img/noticias/competir.png"
-                      class="card-img-tabs">
-                    <div class="card-body-tabs">
-                      <h5 class="card-title-tabs h5-dark">Compite y gana
-                        recompensas en el juego</h5>
-                      <p class="card-text-tabs">Algunas colaboraciones del mundo
-                        real y un nuevo tipo de evento.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Avisos -->
-    <section id="seccion-avisos">
-      <div class="card-avisos">
-        <h1 class="h1-avisos">Avisos</h1>
-        <div class="tabset-avisos">
-          <input type="radio" name="tabset-avisos" id="tab1avisos"
-            aria-controls="tab1avisos" checked>
-          <div class="tab-panels-avisos">
-            <section id="tab1avisos" class="tab-panel-avisos">
-              <div class="row row-cols-1 row-cols-md-3 g-4 card-noticias">
-                <div class="col">
-                  <div class="card card-tabs">
-                    <img src="../assets/img/avisos/torneo-f1.png"
-                      class="card-img-tabs">
-                    <div class="card-body-tabs">
-                      <h5 class="card-title-tabs h5-dark">¡Carrera de F1 en la
-                        Pista Legendaria!</h5>
-                      <p class="card-text-tabs">Siente la adrenalina mientras te
-                        pones al volante en una emocionante carrera de Fórmula 1
-                        en una pista icónica. Experimenta la velocidad y la
-                        emoción mientras compites por el primer lugar en esta
-                        competición de alto octanaje.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card card-tabs">
-                    <img src="../assets/img/avisos/apex-torneo.png"
-                      class="card-img-tabs">
-                    <div class="card-body-tabs">
-                      <h5 class="card-title-tabs h5-dark">¡Evento de Apex
-                        Legends: Caza Legendaria!</h5>
-                      <p class="card-text-tabs">Prepárate para un evento
-                        especial. Nuevos modos de juego, desafíos exclusivos y
-                        recompensas épicas te
-                        esperan en este emocionante evento de tiempo limitado.</p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card card-tabs">
-                    <img src="../assets/img/avisos/fifa.png"
-                      class="card-img-tabs">
-                    <div class="card-body-tabs">
-                      <h5 class="card-title-tabs h5-dark">¡Torneo de FIFA 23 en
-                        Vivo!</h5>
-                      <p class="card-text-tabs">Un emocionante torneo está en
-                        marcha. Demuestra tus habilidades y compite contra los
-                        mejores jugadores en una batalla por la gloria. Grandes
-                        premios y recompensas te esperan.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Top Juegos y Reseñas -->
-    <section id="seccion-top">
-      <div class="card-top">
-        <h1 class="h1-top">Ranking de Videojuegos</h1>
-        <div class="tabset">
-          <input type="radio" name="tabset-top" id="todos" aria-controls="todos"
-            checked>
-          <label for="todos">Todos los juegos</label>
-          <input type="radio" name="tabset-top" id="populares"
-            aria-controls="populares">
-          <label for="populares">Populares</label>
-          <input type="radio" name="tabset-top" id="proximo"
-            aria-controls="populares">
-          <label for="proximo">Próximos lanzamientos</label>
-          <div class="tab-panels">
-            <section id="todos" class="tab-panel">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col">Puesto</th>
-                    <th scope="col">Juego</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row row-table">1
-                      <img src="../assets/img/top/sims.png"
-                        class="img-table">
-                    </th>
-                    <td>
-                      <div class="card-top">
-                        <h5 class="card-header-top">Los Sims 4</h5>
-                        <div class="card-body-top">
-                          <h5 class="card-title-top">Una serie de simulación de
-                            vida
-                            que ha sido extremadamente popular desde su inicio.</h5>
-                          <p class="card-text-top">"Los Sims" es una icónica
-                            serie
-                            de simulación de vida que ha capturado la
-                            imaginación de jugadores de todas las edades desde
-                            su lanzamiento. En este juego, los jugadores pueden
-                            crear
-                            y personalizar sus propios personajes virtuales,
-                            diseñar hogares y vivir vidas virtuales. La serie se
-                            destaca por su creatividad ilimitada y su enfoque en
-                            la toma de decisiones del jugador. Con su humor
-                            característico y la capacidad de explorar diferentes
-                            trayectorias de vida, "Los Sims" sigue siendo un
-                            título querido que permite a los jugadores
-                            experimentar la vida de una manera única y
-                            entretenida.</p>
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row row-table">2
-                      <img src="../assets/img/top/fifa.png"
-                        class="img-table">
-                    </th>
-                    <td>
-                      <div class="card-top">
-                        <h5 class="card-header-top">FIFA</h5>
-                        <div class="card-body-top">
-                          <h5 class="card-title-top">La serie de videojuegos de
-                            fútbol que ha tenido un gran éxito en todo el mundo.</h5>
-                          <p class="card-text-top">La serie "FIFA" es sinónimo
-                            de simulación de fútbol y ha sido el go-to para los
-                            fanáticos del deporte en el mundo de los
-                            videojuegos. Con cada nueva entrega, "FIFA" ofrece
-                            gráficos impresionantes, jugabilidad realista y una
-                            amplia gama de modos de juego, desde partidos
-                            amistosos hasta ligas completas y competencias
-                            internacionales. Los jugadores pueden experimentar
-                            la emoción del fútbol en su pantalla, tomar el
-                            control de sus equipos favoritos y enfrentarse a
-                            rivales de todo el mundo. "FIFA" es un título que
-                            reúne a los fanáticos del fútbol y los videojuegos
-                            en una experiencia virtualmente auténtica.</p>
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row row-table">3
-                      <img src="../assets/img/top/battlefield.png"
-                        class="img-table">
-                    </th>
-                    <td>
-                      <div class="card-top">
-                        <h5 class="card-header-top">Battlefield</h5>
-                        <div class="card-body-top">
-                          <h5 class="card-title-top">Una serie de juegos de
-                            disparos en primera persona conocida por sus grandes
-                            mapas y acción intensa.</h5>
-                          <p class="card-text-top">"Battlefield" es una serie de
-                            juegos de disparos en primera persona conocida por
-                            su enfoque en la guerra y la acción a gran escala.
-                            Con mapas expansivos, vehículos y modos de juego
-                            variados, "Battlefield" ofrece una experiencia de
-                            combate única y emocionante. Los jugadores pueden
-                            sumergirse en batallas intensas en equipos,
-                            aprovechando la estrategia y la cooperación para
-                            alcanzar la victoria. Desde enfrentamientos en
-                            campos de batalla históricos hasta escenarios
-                            modernos, la serie "Battlefield" es famosa por su
-                            enfoque en la destrucción ambiental y el caos
-                            controlado que crea momentos inolvidables para los
-                            jugadores.</p>
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </section>
-            <section id="populares" class="tab-panel">
-              <table class="table">
-                <thead>
-                  <tr>
-                    <th scope="col">Puesto</th>
-                    <th scope="col">Juego</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <th scope="row row-table">1
-                      <img src="../assets/img/top/apex.png"
-                        class="img-table">
-                    </th>
-                    <td>
-                      <div class="card-top">
-                        <h5 class="card-header-top">Apex Legends</h5>
-                        <div class="card-body-top">
-                          <h5 class="card-title-top">Un juego de disparos battle
-                            royale basado en equipos que ha ganado una gran base
-                            de jugadores.</h5>
-                          <p class="card-text-top">Apex Legends es un juego de
-                            disparos en primera persona estilo battle royale
-                            desarrollado por Respawn Entertainment y publicado
-                            por Electronic Arts. Se destaca por su enfoque en el
-                            juego en equipo, donde los jugadores eligen entre
-                            una variedad de personajes únicos, cada uno con
-                            habilidades especiales, y trabajan juntos para ser
-                            el último equipo en pie. Con una mecánica fluida,
-                            acción trepidante y una variedad de personajes,
-                            armas y equipos, Apex Legends ha ganado una gran
-                            base de jugadores desde su lanzamiento. Su estilo de
-                            juego táctico y las constantes actualizaciones han
-                            mantenido a los jugadores comprometidos y han hecho
-                            que el juego sea uno de los títulos más populares
-                            del género battle royale.</p>
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row row-table">2
-                      <img src="../assets/img/top/starwars.png"
-                        class="img-table">
-                    </th>
-                    <td>
-                      <div class="card-top">
-                        <h5 class="card-header-top">Star Wars Jedi: Fallen Order</h5>
-                        <div class="card-body-top">
-                          <h5 class="card-title-top">Un juego de acción y
-                            aventuras ambientado en el universo de Star Wars.</h5>
-                          <p class="card-text-top">Star Wars Jedi: Fallen Order
-                            es un juego de acción y aventuras de un solo jugador
-                            desarrollado por Respawn Entertainment. Ambientado
-                            en el universo de Star Wars, el juego sigue la
-                            historia de Cal Kestis, un joven Padawan que
-                            sobrevivió a la Orden 66 y ahora debe ocultar sus
-                            habilidades de la Fuerza mientras explora su camino
-                            como un Jedi. El juego ofrece una narrativa rica y
-                            emocionante, con combates con sables de luz, puzles
-                            y exploración en un entorno de mundo abierto. Con
-                            gráficos impresionantes, una historia cautivadora y
-                            una jugabilidad sólida, Star Wars Jedi: Fallen Order
-                            ha sido muy bien recibido tanto por los fanáticos de
-                            Star Wars como por los jugadores en general.</p>
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                  <tr>
-                    <th scope="row row-table">3
-                      <img src="../assets/img/top/speed.png"
-                        class="img-table">
-                    </th>
-                    <td>
-                      <div class="card-top">
-                        <h5 class="card-header-top">Need for Speed Heat</h5>
-                        <div class="card-body-top">
-                          <h5 class="card-title-top">Un juego de carreras de
-                            automóviles que combina carreras legales e ilegales
-                            en una ciudad ficticia.</h5>
-                          <p class="card-text-top">Need for Speed Heat es la
-                            entrega más reciente de la popular serie de juegos
-                            de carreras de automóviles desarrollada por Ghost
-                            Games. El juego ofrece una combinación de carreras
-                            legales e ilegales en la ciudad ficticia de Palm
-                            City. Los jugadores participan en carreras
-                            callejeras, evitan a la policía y personalizan y
-                            mejoran sus autos para convertirse en el mejor
-                            corredor de la ciudad. Con una amplia variedad de
-                            autos para elegir, opciones de personalización y
-                            modos de juego, Need for Speed Heat captura la
-                            esencia de la cultura de carreras callejeras y
-                            ofrece una experiencia emocionante de conducción a
-                            alta velocidad. Si bien recibió críticas mixtas por
-                            algunos aspectos, sigue siendo un título popular
-                            entre los fanáticos de los juegos de carreras.</p>
-                        </div>
-                      </div>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-            </section>
-            <section id="proximo" class="tab-panel">
-              <div class="row row-cols-1 row-cols-md-3 g-4 card-noticias">
-                <div class="col">
-                  <div class="card card-tabs h-100">
-                    <img src="../assets/img/top/armored.png"
-                      class="card-img-tabs">
-                    <div class="card-body-tabs">
-                      <h5 class="card-title-tabs h5-dark">Armored Core 6: Fires
-                        of Rubicon </h5>
-                      <p class="card-text-tabs">Nueva entrega de Armored Core,
-                        la veterana saga de FromSoftware con robots. </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card card-tabs h-100">
-                    <img src="../assets/img/top/sea.png"
-                      class="card-img-tabs">
-                    <div class="card-body-tabs">
-                      <h5 class="card-title-tabs h5-dark">Sea of Stars</h5>
-                      <p class="card-text-tabs">Sea of Stars es un juego de rol
-                        inspirado fuertemente por los grandes clásicos del
-                        género, sobre todo en aquellos lanzados en la década de
-                        los noventa. </p>
-                    </div>
-                  </div>
-                </div>
-                <div class="col">
-                  <div class="card card-tabs h-100">
-                    <img src="../assets/img/top/daymare.png"
-                      class="card-img-tabs">
-                    <div class="card-body-tabs">
-                      <h5 class="card-title-tabs h5-dark">Daymare: 1994
-                        Sandcastle </h5>
-                      <p class="card-text-tabs">Daymare: 1994 Sandcastle es un
-                        juego de terror y supervivencia en tercera persona,
-                        precuela del aclamado Daymare: 1998.</p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Reseñas  -->
-    <section id="seccion-reseña">
-      <div class="container-reseña">
-        <h1 class="h1-reseñas">Reseñas</h1>
-        <div class="row">
-          <div class="col">
-            <div class="review h-100">
-              <div class="testimonial-card">
-                <div class="testimonial-image">
-                  <img src="..\assets\img\destacados\sims.jpg" alt="Imagen del Videojuego">
-                </div>
-                <div class="testimonial-content">
-                  <h1 class="game-title">Los Sims 4</h1>
-                  <div class="user-info">
-                    <p class="user-name">PixelPrincess</p>
-                  </div>
-                  <p class="user-review">¡Los Sims 4 ofrece una vida virtual fascinante con
-                    personalización y opciones de carrera emocionantes! Los
-                    detalles son asombrosos, pero los tiempos de carga pueden
-                    ser largos.</p>
-                  <div class="game-rating">
-                    <span class="rating-label">Calificación:</span>
-                    <span class="rating-value">4.5 / 5</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="review h-100">
-              <div class="testimonial-card">
-                <div class="testimonial-image">
-                  <img src="..\assets\img\top\starwars.png" alt="Imagen del Videojuego">
-                </div>
-                <div class="testimonial-content">
-                  <h1 class="game-title">Star Wars Jedi: Fallen Order</h1>
-                  <div class="user-info">
-                    <p class="user-name">GamerMaster</p>
-                  </div>
-                  <p class="user-review">Una aventura épica de Star Wars con combates auténticos y
-                    emocionantes. La narrativa es inmersiva, pero algunos puzles
-                    pueden ser desafiantes.</p>
-                  <div class="game-rating">
-                    <span class="rating-label">Calificación:</span>
-                    <span class="rating-value">4 / 5</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="col">
-            <div class="review h-100">
-              <div class="testimonial-card ">
-                <div class="testimonial-image">
-                  <img src="..\assets\img\top\f1.png" alt="Imagen del Videojuego">
-                </div>
-                <div class="testimonial-content">
-                  <h1 class="game-title">F1 23</h1>
-                  <div class="user-info">
-                    <p class="user-name">SpeedyRacer23</p>
-                  </div>
-                  <p class="user-review">F1 ofrece carreras realistas y emocionantes. Los circuitos y autos están detallados, y la experiencia</p>
-                  <div class="game-rating">
-                    <span class="rating-label">Calificación:</span>
-                    <span class="rating-value">4.5 / 5</span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <seccion id="footer">
-      <footer>
-        <div class="footer-basic">
-          <footer>
-            <div class="jumbotron">
-              <h1 class="display-6">Contactanos</h1>
-              <div class="lead">
-                <form>
-                  <div class="form-group">
-                    <label for="exampleFormControlInput1">Correo</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
-                  </div>
-                  <div class="form-group">
-                    <label for="exampleFormControlTextarea1">Comentario</label>
-                    <textarea class="form-control" id="exampleFormControlTextarea1"  placeholder="Escribe tu comentario aqui..."></textarea>
-                  </div>
-                  <button type="submit" class="submit-button">Enviar</button>
-                </form>
-              </div>
-              <hr class="my-4">
-              <div class="social">
-                <ul class="social-links">
-                  <li><a href="#"><img
-                        src="..\assets\img\Social Media\facebook.png"
-                        alt="Facebook"></a></li>
-                  <li><a href="#"><img
-                        src="..\assets\img\Social Media\twitter.png"
-                        alt="Twitter"></a></li>
-                  <li><a href="#"><img
-                        src="..\assets\img\Social Media\instagram.png"
-                        alt="Instagram"></a></li>
-                  <li><a href="#"><img
-                        src="..\assets\img\Social Media\youtube.png"
-                        alt="Youtube"></a></li>
+              <div class="row">
+                <header>Explorar Juegos</header>
+                <ul class="mega-links">
+                  <li><a href="#seccion-juegos-destacados">Últimos juegos</a></li>
+                  <li><a href="#">Próximamente</a></li>
+                  <li><a href="#">Gratuitos</a></li>
+                  <li><a href="#">Ofertas</a></li>
                 </ul>
               </div>
-              <ul class="list-inline">
-                <li class="list-inline-item"><a href="#">Home</a></li>
-                <li class="list-inline-item"><a href="#">Servicios</a></li>
-                <li class="list-inline-item"><a href="#">Sobre Nosotros</a></li>
-                <li class="list-inline-item"><a href="#">Términos y Condiciones</a></li>
-                <li class="list-inline-item"><a href="#">Politica de Privacidad</a></li>
-              </ul>
-              <p class="copyright">Play & Win © 2023</p>
+              <div class="row">
+                <header>Plataformas</header>
+                <ul class="mega-links">
+                  <li><a href="#">PC</a></li>
+                  <li><a href="#">PlayStation 5</a></li>
+                  <li><a href="#">Xbox Series X</a></li>
+                  <li><a href="#">Nintendo Switch</a></li>
+                  <li><a href="#">Móviles</a></li>
+                </ul>
+              </div>
+              <div class="row">
+                <header>Ranking</header>
+                <ul class="mega-links">
+                  <li><a href="#todos" data-toggle="tab">Todos los juegos</a></li>
+                  <li><a href="#populares" data-toggle="tab">Populares</a></li>
+                  <li><a href="#proximo" data-toggle="tab">Próximos</a></li>
+                </ul>
+              </div>
             </div>
-          </footer>
-        </div>
-      </footer>
-    </seccion>
+          </div>
+        </li>
+        <li><a href="#seccion-noticias">Noticias</a></li>
+        <li><a href="#seccion-avisos">Avisos</a></li>
+        <li><a href="#seccion-reseña">Reseñas</a></li>
+      </ul>
+      <label for="menu-btn" class="btn menu-btn"><i class="fas fa-bars"></i></label>
+    </div>
+  </nav>
 
-  <button id="btn-ir-arriba" >
+  <!-- Banner llamativo -->
+  <div class="banner-colores border-0">
+    <div class="banner-container">
+      <div class="banner">
+        <div class="content-banner">
+          <div class="contenedor-sims-banner">
+            <div class="body-banner-texto">
+              <h5 class="title-banner-texto">Los Sims 4</h5>
+              <h6 class="subtitle-banner-texto">¡Descubre un mundo de
+                posibilidades!</h6>
+              <p class="text-banner-texto">Crea personajes únicos, construye
+                hogares impresionantes y vive historias emocionantes en el
+                juego de simulación de vida más popular.</p>
+              <button href="#" class="link-banner-texto" role="button">¡Comienza
+                tu aventura ahora!</button>
+            </div>
+          </div>
+        </div>
+        <div class="sims-banner-img">
+          <img src="..\assets\img\sims\sims-banner-2.png" alt="Banner">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sección Juegos Destacados -->
+  <section id="seccion-juegos-destacados">
+    <div class="card-juegos-destacados">
+      <h1 class="h1-juegos-destacados">Juegos Destacados</h1>
+      <div class="card-body-juegos-destacados">
+        <div class="row row-cols-1 row-cols-md-3 g-4 card-imagenes-destacados">
+          <div class="col">
+            <div class="wrapper">
+              <div class="card-wrapper">
+                <img src="../assets/img/destacados/fc-24.jpeg" class="img-juego" alt="FC 24">
+                <div class="overlay">
+                  <img src="../assets/img/destacados/fc-24_logo.png" alt="logo">
+                </div>
+                <div class="info">
+                  <a href="#" class="link-info"> Visitar Página Oficial</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="wrapper">
+              <div class="card-wrapper">
+                <img src="../assets/img/destacados/immortals.jpg" class="juego-logo" alt="Immortals">
+                <div class="overlay">
+                  <img src="../assets/img/destacados/immortals_logo.png" alt="logo">
+                </div>
+                <div class="info">
+                  <a href="#" class="link-info"> Visitar Página Oficial</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="wrapper">
+              <div class="card-wrapper">
+                <img src="../assets/img/destacados/madden-24.jpg" class="juego-logo" alt="Madden 24">
+                <div class="overlay">
+                  <img src="../assets/img/destacados/madden-24-logo.png" alt="logo">
+                </div>
+                <div class="info">
+                  <a href="#" class="link-info"> Visitar Página Oficial</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="wrapper">
+              <div class="card-wrapper">
+                <img src="../assets/img/destacados/baseball.jpg" class="juego-logo" alt="Baseball">
+                <div class="overlay">
+                  <img src="../assets/img/destacados/baseball-logo.png" alt="logo">
+                </div>
+                <div class="info">
+                  <a href="#" class="link-info"> Visitar Página Oficial</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="wrapper">
+              <div class="card-wrapper">
+                <img src="../assets/img/destacados/sims.jpg" class="juego-logo" alt="The Sims 4">
+                <div class="info">
+                  <a href="#" class="link-info"> Visitar Página Oficial</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="wrapper">
+              <div class="card-wrapper">
+                <img src="../assets/img/destacados/apex-legends.jpg" class="juego-logo" alt="Apex Legends">
+                <div class="overlay">
+                  <img src="../assets/img/destacados/apex-legends-logo.png" alt="logo">
+                </div>
+                <div class="info">
+                  <a href="#" class="link-info"> Visitar Página Oficial</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Noticias -->
+  <section id="seccion-noticias">
+    <div class="card-noticias">
+      <h1 class="h1-noticias">Noticias</h1>
+      <div class="tabset">
+        <input type="radio" name="tabset" id="tab1" aria-controls="tab1" checked>
+        <label for="tab1">Noticias P&W</label>
+        <input type="radio" name="tabset" id="tab2" aria-controls="tab2">
+        <label for="tab2">Los Sims 4</label>
+        <input type="radio" name="tabset" id="tab3" aria-controls="tab3">
+        <label for="tab3">F1</label>
+        <div class="tab-panels">
+          <section id="tab1" class="tab-panel">
+            <div class="row row-cols-1 row-cols-md-3 g-4 card-noticias">
+              <div class="col">
+                <div class="card card-tabs h-100">
+                  <img src="../assets/img/noticias/evento.png" class="card-img-tabs">
+                  <div class="card-body-tabs">
+                    <h5 class="card-title-tabs h5-dark">Celebramos el futuro
+                      de P&W</h5>
+                    <p class="card-text-tabs">El primer evento presencial
+                      reunió a todos para animar a emprender el increíble
+                      trabajo que les espera.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-tabs h-100">
+                  <img src="../assets/img/noticias/rene.png" class="card-img-tabs">
+                  <div class="card-body-tabs">
+                    <h5 class="card-title-tabs h5-dark">Project Rene</h5>
+                    <p class="card-text-tabs">Descubre la evolución de Los
+                      Sims donde se involucra a los fans en el proceso de
+                      desarrollo.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-tabs h-100">
+                  <img src="../assets/img/noticias/Cliffhanger.png" class="card-img-tabs">
+                  <div class="card-body-tabs">
+                    <h5 class="card-title-tabs h5-dark">Conoce Cliffhanger
+                      Games</h5>
+                    <p class="card-text-tabs">Conoce el nuevo juego juego de
+                      acción y aventura para un jugador basado en Pantera
+                      Negra de Marvel.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="tab2" class="tab-panel">
+            <div class="row row-cols-1 row-cols-md-3 g-4 card-noticias">
+              <div class="col">
+                <div class="card card-tabs h-100">
+                  <img src="../assets/img/noticias/sims-update.png" class="card-img-tabs">
+                  <div class="card-body-tabs">
+                    <h5 class="card-title-tabs h5-dark">Actualización
+                      03/08/2023</h5>
+                    <p class="card-text-tabs">Mejora de los comederos de los
+                      caballos.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-tabs h-100">
+                  <img src="../assets/img/noticias/horse-ranch.png" class="card-img-tabs">
+                  <div class="card-body-tabs">
+                    <h5 class="card-title-tabs h5-dark">Los Sims 4 - Rancho de
+                      Caballos</h5>
+                    <p class="card-text-tabs">Tú formas parte de Los Sims con
+                      Chrissie YT, Simproved, Ninnster y Doctor Ashley</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-tabs h-100">
+                  <img src="../assets/img/noticias/sims-update.png" class="card-img-tabs">
+                  <div class="card-body-tabs">
+                    <h5 class="card-title-tabs h5-dark">Actualización
+                      18/07/2023</h5>
+                    <p class="card-text-tabs">Para prepararte para su llegada
+                      en Los Sims 4 Pack de expansión Rancho de caballos.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section id="tab3" class="tab-panel">
+            <div class="row row-cols-1 row-cols-md-3 g-4 card-noticias">
+              <div class="col">
+                <div class="card card-tabs h-100">
+                  <img src="../assets/img/noticias/parche.png" class="card-img-tabs">
+                  <div class="card-body-tabs">
+                    <h5 class="card-title-tabs h5-dark">Notas del Parche V1.10</h5>
+                    <p class="card-text-tabs">LLegan grandes añadidos y el
+                      asutraliano favoritos de todos. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-tabs h-100">
+                  <img src="../assets/img/noticias/parche2.png" class="card-img-tabs">
+                  <div class="card-body-tabs">
+                    <h5 class="card-title-tabs h5-dark">Notas del Parche V1.09</h5>
+                    <p class="card-text-tabs">Correción de errores y mejoras
+                      en la dificultad.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-tabs h-100">
+                  <img src="../assets/img/noticias/competir.png" class="card-img-tabs">
+                  <div class="card-body-tabs">
+                    <h5 class="card-title-tabs h5-dark">Compite y gana
+                      recompensas en el juego</h5>
+                    <p class="card-text-tabs">Algunas colaboraciones del mundo
+                      real y un nuevo tipo de evento.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Avisos -->
+  <section id="seccion-avisos">
+    <div class="card-avisos">
+      <h1 class="h1-avisos">Avisos</h1>
+      <div class="tabset-avisos">
+        <input type="radio" name="tabset-avisos" id="tab1avisos" aria-controls="tab1avisos" checked>
+        <div class="tab-panels-avisos">
+          <section id="tab1avisos" class="tab-panel-avisos">
+            <div class="row row-cols-1 row-cols-md-3 g-4 card-noticias">
+              <div class="col">
+                <div class="card card-tabs">
+                  <img src="../assets/img/avisos/torneo-f1.png" class="card-img-tabs">
+                  <div class="card-body-tabs h-100">
+                    <h5 class="card-title-tabs h5-dark">¡Carrera de F1 en la
+                      Pista Legendaria!</h5>
+                    <p class="card-text-tabs">Siente la adrenalina mientras te
+                      pones al volante en una emocionante carrera de Fórmula 1
+                      en una pista icónica. Experimenta la velocidad y la
+                      emoción mientras compites por el primer lugar en esta
+                      competición de alto octanaje.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-tabs h-100">
+                  <img src="../assets/img/avisos/apex-torneo.png" class="card-img-tabs">
+                  <div class="card-body-tabs">
+                    <h5 class="card-title-tabs h5-dark">¡Evento de Apex
+                      Legends: Caza Legendaria!</h5>
+                    <p class="card-text-tabs">Prepárate para un evento
+                      especial. Nuevos modos de juego, desafíos exclusivos y
+                      recompensas épicas te
+                      esperan en este emocionante evento de tiempo limitado.</p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-tabs h-100">
+                  <img src="../assets/img/avisos/fifa.png" class="card-img-tabs">
+                  <div class="card-body-tabs">
+                    <h5 class="card-title-tabs h5-dark">¡Torneo de FIFA 23 en
+                      Vivo!</h5>
+                    <p class="card-text-tabs">Un emocionante torneo está en
+                      marcha. Demuestra tus habilidades y compite contra los
+                      mejores jugadores en una batalla por la gloria. Grandes
+                      premios y recompensas te esperan.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Ranking Juegos -->
+  <section id="seccion-top">
+    <div class="card-top">
+      <h1 class="h1-top">Ranking de Videojuegos</h1>
+      <div class="tabset">
+        <input type="radio" name="tabset-top" id="todos" aria-controls="todos" checked>
+        <label for="todos">Todos los juegos</label>
+        <input type="radio" name="tabset-top" id="populares" aria-controls="populares">
+        <label for="populares">Populares</label>
+        <input type="radio" name="tabset-top" id="proximo" aria-controls="proximo">
+        <label for="proximo">Próximos lanzamientos</label>
+        <div class="tab-panels">
+          <section id="todos" class="tab-panel">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Puesto</th>
+                  <th scope="col">Juego</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row row-table">1
+                    <img src="../assets/img/top/sims.png" class="img-table">
+                  </th>
+                  <td>
+                    <div class="card-top">
+                      <h5 class="card-header-top">Los Sims 4</h5>
+                      <div class="card-body-top">
+                        <h5 class="card-title-top">Una serie de simulación de
+                          vida
+                          que ha sido extremadamente popular desde su inicio.</h5>
+                        <p class="card-text-top">"Los Sims" es una icónica
+                          serie
+                          de simulación de vida que ha capturado la
+                          imaginación de jugadores de todas las edades desde
+                          su lanzamiento. En este juego, los jugadores pueden
+                          crear
+                          y personalizar sus propios personajes virtuales,
+                          diseñar hogares y vivir vidas virtuales. La serie se
+                          destaca por su creatividad ilimitada y su enfoque en
+                          la toma de decisiones del jugador. Con su humor
+                          característico y la capacidad de explorar diferentes
+                          trayectorias de vida, "Los Sims" sigue siendo un
+                          título querido que permite a los jugadores
+                          experimentar la vida de una manera única y
+                          entretenida.</p>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row row-table">2
+                    <img src="../assets/img/top/fifa.png" class="img-table">
+                  </th>
+                  <td>
+                    <div class="card-top">
+                      <h5 class="card-header-top">FIFA</h5>
+                      <div class="card-body-top">
+                        <h5 class="card-title-top">La serie de videojuegos de
+                          fútbol que ha tenido un gran éxito en todo el mundo.</h5>
+                        <p class="card-text-top">La serie "FIFA" es sinónimo
+                          de simulación de fútbol y ha sido el go-to para los
+                          fanáticos del deporte en el mundo de los
+                          videojuegos. Con cada nueva entrega, "FIFA" ofrece
+                          gráficos impresionantes, jugabilidad realista y una
+                          amplia gama de modos de juego, desde partidos
+                          amistosos hasta ligas completas y competencias
+                          internacionales. Los jugadores pueden experimentar
+                          la emoción del fútbol en su pantalla, tomar el
+                          control de sus equipos favoritos y enfrentarse a
+                          rivales de todo el mundo. "FIFA" es un título que
+                          reúne a los fanáticos del fútbol y los videojuegos
+                          en una experiencia virtualmente auténtica.</p>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row row-table">3
+                    <img src="../assets/img/top/battlefield.png" class="img-table">
+                  </th>
+                  <td>
+                    <div class="card-top">
+                      <h5 class="card-header-top">Battlefield</h5>
+                      <div class="card-body-top">
+                        <h5 class="card-title-top">Una serie de juegos de
+                          disparos en primera persona conocida por sus grandes
+                          mapas y acción intensa.</h5>
+                        <p class="card-text-top">"Battlefield" es una serie de
+                          juegos de disparos en primera persona conocida por
+                          su enfoque en la guerra y la acción a gran escala.
+                          Con mapas expansivos, vehículos y modos de juego
+                          variados, "Battlefield" ofrece una experiencia de
+                          combate única y emocionante. Los jugadores pueden
+                          sumergirse en batallas intensas en equipos,
+                          aprovechando la estrategia y la cooperación para
+                          alcanzar la victoria. Desde enfrentamientos en
+                          campos de batalla históricos hasta escenarios
+                          modernos, la serie "Battlefield" es famosa por su
+                          enfoque en la destrucción ambiental y el caos
+                          controlado que crea momentos inolvidables para los
+                          jugadores.</p>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+          <section id="populares" class="tab-panel">
+            <table class="table">
+              <thead>
+                <tr>
+                  <th scope="col">Puesto</th>
+                  <th scope="col">Juego</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row row-table">1
+                    <img src="../assets/img/top/apex.png" class="img-table">
+                  </th>
+                  <td>
+                    <div class="card-top">
+                      <h5 class="card-header-top">Apex Legends</h5>
+                      <div class="card-body-top">
+                        <h5 class="card-title-top">Un juego de disparos battle
+                          royale basado en equipos que ha ganado una gran base
+                          de jugadores.</h5>
+                        <p class="card-text-top">Apex Legends es un juego de
+                          disparos en primera persona estilo battle royale
+                          desarrollado por Respawn Entertainment y publicado
+                          por Electronic Arts. Se destaca por su enfoque en el
+                          juego en equipo, donde los jugadores eligen entre
+                          una variedad de personajes únicos, cada uno con
+                          habilidades especiales, y trabajan juntos para ser
+                          el último equipo en pie. Con una mecánica fluida,
+                          acción trepidante y una variedad de personajes,
+                          armas y equipos, Apex Legends ha ganado una gran
+                          base de jugadores desde su lanzamiento. Su estilo de
+                          juego táctico y las constantes actualizaciones han
+                          mantenido a los jugadores comprometidos y han hecho
+                          que el juego sea uno de los títulos más populares
+                          del género battle royale.</p>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row row-table">2
+                    <img src="../assets/img/top/starwars.png" class="img-table">
+                  </th>
+                  <td>
+                    <div class="card-top">
+                      <h5 class="card-header-top">Star Wars Jedi: Fallen Order</h5>
+                      <div class="card-body-top">
+                        <h5 class="card-title-top">Un juego de acción y
+                          aventuras ambientado en el universo de Star Wars.</h5>
+                        <p class="card-text-top">Star Wars Jedi: Fallen Order
+                          es un juego de acción y aventuras de un solo jugador
+                          desarrollado por Respawn Entertainment. Ambientado
+                          en el universo de Star Wars, el juego sigue la
+                          historia de Cal Kestis, un joven Padawan que
+                          sobrevivió a la Orden 66 y ahora debe ocultar sus
+                          habilidades de la Fuerza mientras explora su camino
+                          como un Jedi. El juego ofrece una narrativa rica y
+                          emocionante, con combates con sables de luz, puzles
+                          y exploración en un entorno de mundo abierto. Con
+                          gráficos impresionantes, una historia cautivadora y
+                          una jugabilidad sólida, Star Wars Jedi: Fallen Order
+                          ha sido muy bien recibido tanto por los fanáticos de
+                          Star Wars como por los jugadores en general.</p>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+                <tr>
+                  <th scope="row row-table">3
+                    <img src="../assets/img/top/speed.png" class="img-table">
+                  </th>
+                  <td>
+                    <div class="card-top">
+                      <h5 class="card-header-top">Need for Speed Heat</h5>
+                      <div class="card-body-top">
+                        <h5 class="card-title-top">Un juego de carreras de
+                          automóviles que combina carreras legales e ilegales
+                          en una ciudad ficticia.</h5>
+                        <p class="card-text-top">Need for Speed Heat es la
+                          entrega más reciente de la popular serie de juegos
+                          de carreras de automóviles desarrollada por Ghost
+                          Games. El juego ofrece una combinación de carreras
+                          legales e ilegales en la ciudad ficticia de Palm
+                          City. Los jugadores participan en carreras
+                          callejeras, evitan a la policía y personalizan y
+                          mejoran sus autos para convertirse en el mejor
+                          corredor de la ciudad. Con una amplia variedad de
+                          autos para elegir, opciones de personalización y
+                          modos de juego, Need for Speed Heat captura la
+                          esencia de la cultura de carreras callejeras y
+                          ofrece una experiencia emocionante de conducción a
+                          alta velocidad. Si bien recibió críticas mixtas por
+                          algunos aspectos, sigue siendo un título popular
+                          entre los fanáticos de los juegos de carreras.</p>
+                      </div>
+                    </div>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </section>
+          <section id="proximo" class="tab-panel">
+            <div class="row row-cols-1 row-cols-md-3 g-4 card-noticias">
+              <div class="col">
+                <div class="card card-tabs h-100">
+                  <img src="../assets/img/top/armored.png" class="card-img-tabs">
+                  <div class="card-body-tabs">
+                    <h5 class="card-title-tabs h5-dark">Armored Core 6: Fires
+                      of Rubicon </h5>
+                    <p class="card-text-tabs">Nueva entrega de Armored Core,
+                      la veterana saga de FromSoftware con robots. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-tabs h-100">
+                  <img src="../assets/img/top/sea.png" class="card-img-tabs">
+                  <div class="card-body-tabs">
+                    <h5 class="card-title-tabs h5-dark">Sea of Stars</h5>
+                    <p class="card-text-tabs">Sea of Stars es un juego de rol
+                      inspirado fuertemente por los grandes clásicos del
+                      género, sobre todo en aquellos lanzados en la década de
+                      los noventa. </p>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-tabs h-100">
+                  <img src="../assets/img/top/daymare.png" class="card-img-tabs">
+                  <div class="card-body-tabs">
+                    <h5 class="card-title-tabs h5-dark">Daymare: 1994
+                      Sandcastle </h5>
+                    <p class="card-text-tabs">Daymare: 1994 Sandcastle es un
+                      juego de terror y supervivencia en tercera persona,
+                      precuela del aclamado Daymare: 1998.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Reseñas  -->
+  <section id="seccion-reseña">
+    <div class="card-reseñas">
+      <h1 class="h1-reseñas">Reseñas</h1>
+      <div class="tabset-reseñas">
+        <input type="radio" name="tabset-reseñas" id="tab1reseñas" aria-controls="tab1reseñas" checked>
+        <div class="tab-panels-reseñas">
+          <section id="tab1avisos" class="tab-panel-avisos">
+            <div class="row row-cols-1 row-cols-md-3 g-4 card-reseña">
+              <div class="col">
+                <div class="card card-tabs h-100">
+                  <img src="..\assets\img\top\f1.png" class="card-img-tabs">
+                  <div class="card-body testimonial-content">
+                    <h1 class="game-title">F1 23</h1>
+                    <div class="user-info">
+                      <p class="user-name">By: SpeedyRacer23</p>
+                    </div>
+                    <p class="user-review">F1 ofrece carreras realistas y
+                      emocionantes. Los circuitos y autos están detallados, y la
+                      experiencia</p>
+                    <div class="game-rating">
+                      <span class="rating-label">Calificación:</span>
+                      <span class="rating-value">4.5 / 5</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-tabs h-100">
+                  <img src="..\assets\img\top\starwars.png" class="card-img-tabs">
+                  <div class="card-body testimonial-content">
+                    <h1 class="game-title">Star Wars Jedi: Fallen Order</h1>
+                    <div class="user-info">
+                      <p class="user-name">By: GamerMaster</p>
+                    </div>
+                    <p class="user-review">Una aventura épica de Star Wars con
+                      combates auténticos y emocionantes. La narrativa es inmersiva, pero algunos puzles
+                      pueden ser desafiantes.</p>
+                    <div class="game-rating">
+                      <span class="rating-label">Calificación:</span>
+                      <span class="rating-value">4 / 5</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="col">
+                <div class="card card-tabs h-100">
+                  <img src="..\assets\img\top\sims.png" class="card-img-tabs">
+                  <div class="card-body testimonial-content">
+                    <h1 class="game-title">Los Sims 4</h1>
+                    <div class="user-info">
+                      <p class="user-name">By: PixelPrincess</p>
+                    </div>
+                    <p class="user-review">¡Los Sims 4 ofrece una vida virtual
+                      fascinante con
+                      personalización y opciones de carrera emocionantes! Los
+                      detalles son asombrosos, pero los tiempos de carga pueden
+                      ser largos.</p>
+                    <div class="game-rating">
+                      <span class="rating-label">Calificación:</span>
+                      <span class="rating-value">3.5 / 5</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Footer -->
+  <seccion id="footer">
+    <footer>
+      <div class="jumbotron">
+        <h1 class="display-6">Contactanos</h1>
+        <div class="container d-flex justify-content-center align-items-center">
+          <form id="myForm">
+            <div class="form-group position-relative">
+              <label for="formName" class="d-block">
+                <i class="fa fa-user icon"></i>
+              </label>
+              <input type="text" id="formName" class="form-control form-control-lg thick" placeholder="Nombre" required>
+            </div>
+            <div class="form-group position-relative">
+              <label for="formEmail" class="d-block">
+                <i class="fa fa-envelope icon"></i>
+              </label>
+              <input type="email" id="formEmail" class="form-control form-control-lg thick"
+                placeholder="Correo Electrónico" required>
+            </div>
+            <div class="form-group message">
+              <textarea id="formMessage" class="form-control form-control-lg" rows="7"
+                placeholder="Escribe tu Mensaje..." required></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="submit-button" tabIndex="-1">Enviar</button>
+            </div>
+          </form>
+        </div>
+        <hr class="my-4">
+        <div class="social">
+          <ul class="social-links">
+            <li><a href="#"><img src="../assets/img/Social Media/facebook.png" alt="Facebook"></a></li>
+            <li><a href="#"><img src="../assets/img/Social Media/twitter.png" alt="Twitter"></a></li>
+            <li><a href="#"><img src="../assets/img/Social Media/instagram.png" alt="Instagram"></a></li>
+            <li><a href="#"><img src="../assets/img/Social Media/youtube.png" alt="Youtube"></a></li>
+          </ul>
+        </div>
+        <ul class="list-inline">
+          <li class="list-inline-item"><a href="#">Home</a></li>
+          <li class="list-inline-item"><a href="#">Servicios</a></li>
+          <li class="list-inline-item"><a href="#">Sobre Nosotros</a></li>
+          <li class="list-inline-item"><a href="#">Términos y Condiciones</a></li>
+          <li class="list-inline-item"><a href="#">Politica de Privacidad</a></li>
+        </ul>
+        <p class="copyright">Play & Win © 2023</p>
+      </div>
+    </footer>
+  </seccion>
+
+  <!-- Btn js arriba -->
+  <button id="btn-ir-arriba">
     <svg viewBox="0 0 24 24">
       <path d="m4 16 8-8 8 8"></path>
     </svg>
   </button>
 
+</body>
 
-  </body>
 </html>
-
